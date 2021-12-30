@@ -21,10 +21,6 @@ public class Empresa {
 		this.nome = nome;
 	}
 	
-	public Empresa(String nome) {
-		this.nome = nome;
-	}
-	
 	public void setDataAbertura(Date dataAbertura) {
 		this.dataAbertura = dataAbertura;
 	}
@@ -32,6 +28,4 @@ public class Empresa {
 	public Date getDataAbertura() {
 		return dataAbertura;
 	}
-	
-	
 }
