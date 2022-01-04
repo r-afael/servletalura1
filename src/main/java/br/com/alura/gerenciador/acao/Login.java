@@ -22,7 +22,7 @@ public class Login implements Acao {
 		System.out.println("Logando " + login);
 		
 		Banco banco = new Banco();
-		Usuario usuario = banco.existeUsuario(login, senha);
+		Usuario usuario = banco.existeUsuario(login,senha);
 		
 		if(usuario != null) {
 			System.out.println("Usuario existe");
